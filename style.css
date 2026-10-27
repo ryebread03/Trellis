@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+:root{ --ink:#232A24; --ink-soft:#4A5349; --ink-faint:#8B948A; --paper:#F2F4EE; --card:#FFFFFF;
+  --line:#DDE2D8; --spruce:#2F5D50; --leaf:#3E8C4F; --leaf-soft:#E4F1E4; }
+*{ box-sizing:border-box; }
+body{ margin:0; background:var(--paper); color:var(--ink); font:16px/1.65 'IBM Plex Sans',system-ui,sans-serif; -webkit-font-smoothing:antialiased; }
+main{ max-width:720px; margin:0 auto; padding:40px 16px 64px; }
+header{ display:flex; align-items:center; gap:12px; margin-bottom:32px; }
+header img{ width:40px; height:40px; }
+header a{ font-family:'Zilla Slab',serif; font-weight:700; font-size:24px; color:var(--spruce); text-decoration:none; }
+h1,h2{ font-family:'Zilla Slab',serif; line-height:1.2; }
+h1{ font-size:36px; margin:0 0 8px; }
+h2{ font-size:22px; margin:32px 0 8px; }
+p,li{ color:var(--ink-soft); }
+a{ color:var(--spruce); text-underline-offset:2px; }
+.lede{ font-size:19px; color:var(--ink-soft); margin:0 0 24px; }
+.meta{ font-size:13px; color:var(--ink-faint); }
+.card{ background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px 24px; margin:24px 0; }
+.card h2{ margin-top:0; }
+footer{ margin-top:48px; padding-top:16px; border-top:1px solid var(--line); font-size:14px; display:flex; gap:20px; flex-wrap:wrap; }
